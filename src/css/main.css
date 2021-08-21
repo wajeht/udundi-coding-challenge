@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'Essonnes';
+    src: local('Essonnes Display Bold'), local('Essonnes-Display-Bold'),
+        url('./fonts/EssonnesDisplay-Bold.woff2') format('woff2'),
+        url('./fonts/EssonnesDisplay-Bold.woff') format('woff'),
+        url('./fonts/EssonnesDisplay-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*  ---------- Background ----------  */
+.background {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.background__sidebar {
+    flex: 35%;
+    background-color: #611818;
+}
+
+.background__wallpaper {
+    flex: 65%;
+    background-image: url('../img/forrest.jpg');
+    background-size: cover;
+    background-position: right top;
+}
+
+.heading__title {
+    font-family: Helvetica;
+    font-size: 224px;
+    color: #ffffff;
+    letter-spacing: 5.6px;
+    text-align: center;
+}
+
+/*  ---------- Heading ----------  */
+.heading {
+    position: absolute;
+    top: 60%;
+    left: calc(100vw - 75%);
+}
+
+.heading__title {
+    font-family: 'Essonnes';
+}
+
+.heading__description {
+    position: absolute;
+    top: 82%;
+    margin-left: 9%;
+}
+
+.heading__description-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+}
+
+.heading__description-button__image {
+    margin-right: 20px;
+}
+
+.heading__description-button__text {
+    font-size: 25px;
+}
+
+/*  ---------- Card ----------  */
+.card {
+    position: absolute;
+    bottom: calc(100vh - 90%);
+    left: calc(100vw - 75%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 70px;
+    width: 580px;
+    height: 702px;
+    background: #ffffff;
+    box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.3);
+}
+
+.card__heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__heading-title {
+    font-size: 66px;
+    color: #611818;
+    letter-spacing: 1.65px;
+}
+
+.card__heading-underline {
+    margin: 20px 0;
+    background-image: linear-gradient(90deg, #611818 0%, #ffffff 100%);
+    width: 65%;
+    height: 1.7px;
+}
+
+.card__content {
+    font-family: ArialMT;
+    font-size: 15px;
+    color: #505050;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+}
+
+.card__button {
+    margin: 20px 0;
+    width: 235px;
+    height: 55px;
+    background-image: linear-gradient(90deg, #611818 0%, #a36754 100%);
+    border: 1px solid #979797;
+    font-family: ArialMT;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 1.69px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.card__button:hover {
+    background-image: linear-gradient(90deg, #8f2323 0%, #a36754 100%);
+}
+
+.card__close {
+    top: 3%;
+    right: 5%;
+    font-size: 25px;
+    font-weight: 300;
+    position: absolute;
+    color: #611818;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+}
+
+.card__close:hover {
+    color: #8f2323;
+}
+
+/*  ---------- Social media ----------  */
+.social-media {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+}
+
+.social-media__facebook {
+    margin: 5px;
+    filter: drop-shadow(0px 0px 5px #000000);
+}
+
+.social-media__instagram {
+    margin: 5px;
+    filter: drop-shadow(0px 0px 5px #000000);
+}

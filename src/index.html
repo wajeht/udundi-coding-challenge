@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <title>Udundi Coding Challenge</title>
+        <link rel="stylesheet" href="./css/main.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+    </head>
+    <body>
+        <main>
+            <!-- ---------- Background ---------- -->
+            <div class="background">
+                <div class="background__sidebar"></div>
+                <div class="background__wallpaper"></div>
+            </div>
+
+            <!-- ---------- Heading ---------- -->
+            <div class="heading animate__animated animate__fadeIn">
+                <h2 class="heading__title">Explorer</h2>
+                <div class="heading__description">
+                    <button class="heading__description-button" id="more">
+                        <img
+                            class="heading__description-button__image"
+                            src="./img/plus.svg"
+                            alt="an image of Plus sign"
+                        />
+                        <p class="heading__description-button__text">More Details</p>
+                    </button>
+                </div>
+            </div>
+
+            <!-- ---------- Card ---------- -->
+            <div class="card animate__animated animate__faster">
+                <div class="card__heading">
+                    <h3 class="card__heading-title">Explorer</h3>
+                    <div class="card__heading-underline"></div>
+                </div>
+                <p class="card__content">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                    doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore
+                    veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque
+                    porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                    velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
+                    magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum
+                    exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                    consequatur?
+                </p>
+                <button
+                    class="card__button"
+                    target="__blank"
+                    onclick=" window.open('https://www.jaw.cool/', '__blank');"
+                >
+                    Read more
+                </button>
+                <button class="card__close" id="close">X</button>
+            </div>
+
+            <!-- ---------- Social Media ---------- -->
+            <div class="social-media animate__animated animate__fadeIn">
+                <a href="https://www.facebook.com" target="__blank" title="facebook">
+                    <img
+                        class="social-media__facebook"
+                        src="./img/facebook.svg"
+                        alt="an image of facebook"
+                    />
+                </a>
+
+                <a href="https://www.instagram.com" target="__blank" title="instagram">
+                    <img
+                        class="social-media__instagram"
+                        src="./img/instagram.svg"
+                        alt="an image of instagram"
+                    />
+                </a>
+            </div>
+        </main>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
