@@ -28,6 +28,7 @@
 
 .background__wallpaper {
     flex: 65%;
+    background-color: #611818;
     background-image: url('../img/forrest.jpg');
     background-size: cover;
     background-position: right top;
