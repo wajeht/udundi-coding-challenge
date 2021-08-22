@@ -22,7 +22,7 @@ If you're deploying it into a server, make sure to edit `nginx.conf` file within
     cd udundi-coding-challenge
     ```
 
-3. After we are inside `'udundi-coding-challenge` folder, type in just one command and it will open open up a browser at `http:localhost:3000`.
+3. After we are inside `'udundi-coding-challenge` folder, type in just one command and it will open open up a browser at `http://localhost:8080`.
 
     ```
     make
