@@ -1,0 +1,71 @@
+/*  ---------- Background ----------  */
+.background {
+    display: flex;
+    flex-direction: column;
+}
+
+.background__sidebar {
+    display: none;
+}
+
+/*  ---------- Navigation ----------  */
+.nav {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100vw;
+    background-color: #611818;
+    padding: 25px 50px;
+}
+
+.nav__ul-li a:hover {
+    background-color: #ffffff;
+    color: #611818;
+    filter: none;
+}
+
+/*  ---------- Search icon ----------  */
+.fas:hover {
+    background-color: #ffffff;
+    color: #611818;
+    filter: none;
+}
+
+/*  ---------- Heading ----------  */
+.heading {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading__title {
+    font-size: 100px;
+}
+
+/*  ---------- Card ----------  */
+.card {
+    padding: 30px;
+    width: calc(100vw - 50%);
+    overflow-y: scroll;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card__heading-title {
+    font-size: large;
+}
+
+.card__button {
+    width: 100%;
+}
+
+/*  ---------- Social media ----------  */
+.social-media {
+    display: flex;
+    flex-direction: row;
+
+    position: absolute;
+    left: calc(100vw - 60%);
+}

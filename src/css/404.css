@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.not-found {
+    height: 100vh;
+    background-image: url('../img/forrest.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.not-found__card {
+    padding: 25px;
+    /* width: calc(100vw - 70%); */
+    /* height: calc(100vh - 70%); */
+
+    background-color: #ffffff;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.not-found__card-title {
+    color: #611818;
+    font-size: 5rem;
+}
+
+.not-found__card-title-underline {
+    margin: 10px 0;
+    background-image: linear-gradient(90deg, #611818 0%, #ffffff 100%);
+    height: 2px;
+}
+
+.not-found__card-text {
+    font-family: ArialMT;
+    color: #505050;
+    letter-spacing: 0.35px;
+    line-height: 30px;
+}
