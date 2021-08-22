@@ -53,10 +53,6 @@
     transform: translate(-50%, -50%);
 }
 
-.card__heading-title {
-    font-size: large;
-}
-
 .card__button {
     width: 100%;
 }
