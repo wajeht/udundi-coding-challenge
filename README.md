@@ -43,7 +43,7 @@ Available `make` commands are as follows:
 	make run
     ```
 
-3. The following command will open up a browser at `http://localhost:3000` 
+3. The following command will open up a browser at `http://localhost:8080` 
     ```
 	make visit
     ```
