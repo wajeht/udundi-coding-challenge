@@ -12,5 +12,5 @@ visit:
 stop:
 	docker stop udundi
 
-remove:
+clean:
 	docker container rm -f udundi
