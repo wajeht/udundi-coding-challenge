@@ -3,6 +3,12 @@
 # <p align="center">udundi-coding-challenge</p>
 <p align="center">A Fond-end Web Developer coding challenge for Udundi</p>
 
+# Demo
+Visit the following url for prototype.
+```
+https://udundi.jaw.cool/
+```
+
 # Prerequisites
 
 Install docker on your systems. Visit official site at https://www.docker.com/ for more information. Follow proper instruction for your own systems.
