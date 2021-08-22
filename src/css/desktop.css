@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'Essonnes';
     src: local('Essonnes Display Bold'), local('Essonnes-Display-Bold'),
-        url('./fonts/EssonnesDisplay-Bold.woff2') format('woff2'),
-        url('./fonts/EssonnesDisplay-Bold.woff') format('woff'),
-        url('./fonts/EssonnesDisplay-Bold.ttf') format('truetype');
+        url('/fonts/EssonnesDisplay-Bold.woff2') format('woff2'),
+        url('/fonts/EssonnesDisplay-Bold.woff') format('woff'),
+        url('/fonts/EssonnesDisplay-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
