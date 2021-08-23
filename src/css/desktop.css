@@ -22,18 +22,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-.container {
-    margin: 0 auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /*  ---------- Background ----------  */
 .background {
     min-height: 100vh;
     display: flex;
-    overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 .background__sidebar {
@@ -63,7 +59,7 @@
 }
 
 .heading__title {
-    font-family: 'Essonnes';
+    font-family: var(--ff-primarys);
 }
 
 .heading__description {
