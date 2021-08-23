@@ -16,7 +16,7 @@
 }
 
 .heading__description {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 /*  ---------- Card ----------  */
@@ -26,10 +26,6 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-}
-
-.card__button {
-    /* width: 100%; */
 }
 
 /*  ---------- Social media ----------  */
