@@ -8,90 +8,55 @@
     font-style: normal;
 }
 
+:root {
+    --clr-bg-primary: #611818;
+    --clr-bg-secondary: #ffffff;
+    --clr-hover: #8f2323;
+    --clr-f-primary: #ffffff;
+    --clr-f-secondary: #eeeeee;
+    --ff-primary: 'Essonnes';
+    --ff-secondary: 'Arial';
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    overflow-y: hidden;
-    overflow-x: hidden;
+}
+
+.container {
+    margin: 0 auto;
 }
 
 /*  ---------- Background ----------  */
 .background {
     min-height: 100vh;
     display: flex;
-    flex-wrap: wrap;
 }
 
 .background__sidebar {
     flex: 35%;
-    background-color: #611818;
+    background-color: var(--clr-bg-primary);
 }
 
 .background__wallpaper {
     flex: 65%;
-    background-color: #611818;
+    background-color: var(--clr-bg-secondary);
     background-image: url('../img/forrest.jpg');
     background-size: cover;
-    background-position: right top;
-}
-
-.heading__title {
-    font-family: 'Essonnes';
-    font-size: 224px;
-    color: #ffffff;
-    letter-spacing: 5.6px;
-    text-align: center;
-}
-
-/*  ---------- Navigation ----------  */
-
-.nav {
-    position: absolute;
-    top: 3%;
-    left: calc(100vw - 72%);
-    width: calc(100vw - 35%);
-}
-
-.nav__ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    align-items: center;
-    /* background-color: rgba(143, 35, 35, 0.25); */
-    padding: 25px 0;
-}
-
-.nav__ul-li a {
-    /* padding: 25px; */
-    text-decoration: none;
-    font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-}
-
-.nav__ul-li a:hover {
-    filter: drop-shadow(3px 0px 0px #8f2323) drop-shadow(0px 3px 0px #8f2323)
-        drop-shadow(0px -3px 0px #8f2323) drop-shadow(-3px 0px 0px #8f2323);
-}
-
-/*  ---------- Search icon ----------  */
-.fas {
-    color: #ffffff;
-    font-size: 25px;
-}
-
-.fas:hover {
-    cursor: pointer;
-    filter: drop-shadow(3px 0px 0px #8f2323) drop-shadow(0px 3px 0px #8f2323)
-        drop-shadow(0px -3px 0px #8f2323) drop-shadow(-3px 0px 0px #8f2323);
 }
 
 /*  ---------- Heading ----------  */
 .heading {
-    position: absolute;
     top: 60%;
-    left: calc(100vw - 75%);
+    left: 20%;
+    position: absolute;
+}
+
+.heading__title {
+    font-family: var(--ff-primary);
+    color: var(--clr-f-primary);
+    font-size: clamp(5rem, 17vw, 20rem);
 }
 
 .heading__title {
@@ -110,7 +75,7 @@
     cursor: pointer;
     background-color: transparent;
     border: none;
-    color: #ffffff;
+    color: var(--clr-f-primary);
 }
 
 .heading__description-button__image {
@@ -137,7 +102,7 @@
     padding: 70px;
     width: 580px;
     height: 702px;
-    background: #ffffff;
+    background-color: var(--clr-bg-secondary);
     box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.3);
 }
 
@@ -160,7 +125,7 @@
 }
 
 .card__content {
-    font-family: ArialMT;
+    font-family: var(--ff-secondary);
     font-size: 15px;
     color: #505050;
     letter-spacing: 0.35px;
@@ -175,7 +140,7 @@
     border: 1px solid #979797;
     font-family: ArialMT;
     font-size: 18px;
-    color: #ffffff;
+    color: var(--clr-f-primary);
     letter-spacing: 1.69px;
     text-align: center;
     text-transform: uppercase;
@@ -192,7 +157,7 @@
     font-size: 25px;
     font-weight: 300;
     position: absolute;
-    color: #611818;
+    color: var(--clr-bg-primary);
     background-color: transparent;
     cursor: pointer;
     border: none;
@@ -200,7 +165,7 @@
 }
 
 .card__close:hover {
-    color: #8f2323;
+    color: var(--clr-hover);
 }
 
 /*  ---------- Social media ----------  */
