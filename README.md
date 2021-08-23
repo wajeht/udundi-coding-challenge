@@ -3,6 +3,9 @@
 # <p align="center">udundi-coding-challenge</p>
 <p align="center">A Fond-end Web Developer coding challenge for Udundi</p>
 
+# Time 
+I'd recieved the challenge on Firday. I started working it on Friday at 8pm to 12am. This project tooke me roughly 2-3 hours to get the prototype done working. I spend the rest of the weekend fixing finish and touches.
+
 # Demo
 Visit the following url for prototype.
 ```
