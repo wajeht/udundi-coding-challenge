@@ -55,11 +55,7 @@
 .heading__title {
     font-family: var(--ff-primary);
     color: var(--clr-f-primary);
-    font-size: clamp(5rem, 17vw, 20rem);
-}
-
-.heading__title {
-    font-family: var(--ff-primarys);
+    font-size: clamp(5rem, 15vw, 15rem);
 }
 
 .heading__description {
@@ -100,10 +96,12 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 70px;
+
     max-width: 580px;
     max-height: 702px;
 
     width: 90%;
+	height: fit-content;
 
     background-color: var(--clr-bg-secondary);
     box-shadow: 0 0 10px 7px rgba(0, 0, 0, 0.3);
