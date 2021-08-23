@@ -32,6 +32,8 @@
 .background {
     min-height: 100vh;
     display: flex;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .background__sidebar {
@@ -41,9 +43,10 @@
 
 .background__wallpaper {
     flex: 65%;
-    background-color: var(--clr-bg-secondary);
+    background-color: var(--clr-bg-primary);
     background-image: url('../img/forrest.jpg');
     background-size: cover;
+    background-position: right top;
 }
 
 /*  ---------- Heading ----------  */
