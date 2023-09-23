@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/wajeht/udundi-coding-challenge/master/src/img/screenshot_index.png" width="50%%"><img src="https://raw.githubusercontent.com/wajeht/udundi-coding-challenge/master/src/img/screenshot_card.png" width="50%"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/wajeht/udundi-coding-challenge/master/src/img/screenshot_index.png" width="40%%"><img src="https://raw.githubusercontent.com/wajeht/udundi-coding-challenge/master/src/img/screenshot_card.png" width="40%"></p>
 
 # <p align="center">udundi-coding-challenge</p>
 
