@@ -6,4 +6,6 @@ RUN rm -rf ./*
 
 COPY ./* ./
 
+HEALTHCHECK CMD curl -f http://localhost/ || exit 1
+
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
